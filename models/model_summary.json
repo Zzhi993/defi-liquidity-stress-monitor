@@ -1,0 +1,79 @@
+{
+  "common_history_protocols": [
+    "aave-v3",
+    "convex-finance",
+    "curve-dex",
+    "lido",
+    "sky-lending",
+    "uniswap-v3"
+  ],
+  "component_weights": {
+    "breadth": 0.15,
+    "correlation": 0.25,
+    "density": 0.2,
+    "stablecoin_contraction": 0.2,
+    "volatility": 0.2
+  },
+  "correlation_density_holdout_correlation": 0.8047390802275494,
+  "correlation_density_training_correlation": 0.951387156141048,
+  "display_bands_prespecified": [
+    55,
+    70
+  ],
+  "episodes": 26,
+  "episodes_after_onset_only": 2,
+  "episodes_with_pre_onset_alert": 12,
+  "false_alert_episodes": 40,
+  "fixed_return_bounds": [
+    -0.35,
+    0.35
+  ],
+  "full_logistic_holdout_average_precision": 0.16502037151124685,
+  "historical_7d_loss_p99": 0.21453088010542054,
+  "holdout_end": "2026-07-10",
+  "holdout_events": 93,
+  "holdout_observations": 465,
+  "holdout_prevalence": 0.2,
+  "holdout_start": "2025-04-02",
+  "manual_selected_universe": [
+    "aave-v3",
+    "compound-v3",
+    "convex-finance",
+    "curve-dex",
+    "lido",
+    "morpho-blue",
+    "sky-lending",
+    "uniswap-v3"
+  ],
+  "market_control_retrieved": "2026-07-20",
+  "market_control_source": "DefiLlama Coins API, coingecko:ethereum",
+  "median_warning_lead_days": 1.0,
+  "original_holdout_average_precision": 0.15312223015797188,
+  "original_holdout_roc_auc": 0.3701005896635449,
+  "parsimonious_features": [
+    "correlation"
+  ],
+  "parsimonious_holdout_average_precision": 0.3958425670843825,
+  "raw_holdout_mean_correlation": 0.6191395003358452,
+  "raw_holdout_mean_density": 0.7980798771121352,
+  "research_title": "Aggregate On-Chain Liquidity Indicators and Future DeFi Stress",
+  "residual_holdout_mean_correlation": 0.10511786476410631,
+  "residual_holdout_mean_density": 0.02311827956989247,
+  "sample_end": "2026-07-10",
+  "sample_start": "2022-04-16",
+  "scenario_p95_max": 0.2717843113321476,
+  "scenario_p95_min": 0.10084734604039708,
+  "scenario_p99_max": 0.34327212733983103,
+  "scenario_p99_min": 0.12186459218437541,
+  "stablecoin_holdout_average_precision": 0.26677537756418834,
+  "stablecoin_holdout_roc_auc": 0.5803272054572783,
+  "stablecoin_lag0_h7_ap": 0.26677537756418834,
+  "stablecoin_lag7_h7_ap": 0.20358146280201875,
+  "target_stablecoin_ap_max": 0.2855069356375111,
+  "target_stablecoin_ap_min": 0.26677537756418834,
+  "train_end": "2025-03-25",
+  "training_observations": 1075,
+  "walk_forward_original_average_precision": 0.16705127544464177,
+  "walk_forward_parsimonious_average_precision": 0.3151618543926901,
+  "walk_forward_stablecoin_average_precision": 0.26224638380978776
+}

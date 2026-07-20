@@ -1,0 +1,15 @@
+specification,family,features,training_average_precision,holdout_average_precision,incremental_ap_vs_stablecoin
+single_correlation,single factor,correlation,0.1494343661584917,0.13689000458822992,-0.12988537297595842
+single_density,single factor,density,0.14542450987142896,0.15466453824619353,-0.11211083931799481
+single_stablecoin_contraction,single factor,stablecoin_contraction,0.15961940930752536,0.26677537756418834,0.0
+single_volatility,single factor,volatility,0.1864231771920769,0.14867293509636964,-0.1181024424678187
+single_breadth,single factor,breadth,0.1616281008638858,0.21973000204262946,-0.04704537552155888
+stablecoin_plus_correlation,stablecoin plus one,stablecoin_contraction+correlation,0.1690444718964842,0.17125358864247983,-0.09552178892170851
+stablecoin_plus_density,stablecoin plus one,stablecoin_contraction+density,0.16191468415337723,0.1970968126991573,-0.06967856486503105
+stablecoin_plus_volatility,stablecoin plus one,stablecoin_contraction+volatility,0.17403175391974118,0.1905932657237736,-0.07618211184041473
+stablecoin_plus_breadth,stablecoin plus one,stablecoin_contraction+breadth,0.180673190799724,0.25602124384321,-0.010754133720978332
+heuristic_without_correlation,leave one out,density+stablecoin_contraction+volatility+breadth,0.1706489829184036,0.17675552178466153,-0.09001985577952681
+heuristic_without_density,leave one out,correlation+stablecoin_contraction+volatility+breadth,0.16728019596295446,0.16396288398566006,-0.10281249357852829
+heuristic_without_stablecoin_contraction,leave one out,correlation+density+volatility+breadth,0.1507622182609531,0.1427628384111296,-0.12401253915305874
+heuristic_without_volatility,leave one out,correlation+density+stablecoin_contraction+breadth,0.15387826267622218,0.16112724206088497,-0.10564813550330338
+heuristic_without_breadth,leave one out,correlation+density+stablecoin_contraction+volatility,0.1627595002673634,0.14524742139110763,-0.12152795617308071

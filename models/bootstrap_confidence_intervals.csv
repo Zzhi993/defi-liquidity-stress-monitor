@@ -1,0 +1,2 @@
+metric,point_estimate,ci_lower_95,ci_upper_95,replications,block_length_days
+average_precision,0.15312223015797188,0.09332797938254718,0.22672604766901575,1000,14

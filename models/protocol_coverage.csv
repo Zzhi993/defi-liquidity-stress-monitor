@@ -1,0 +1,9 @@
+protocol_slug,protocol_name,category,first_observation,last_observation,tvl_observations,valid_daily_returns,model_first_valid_return,model_last_valid_return,coverage_rate_since_system_start,common_history_basket
+aave-v3,Aave V3,Lending,2022-03-17,2026-07-17,1584,1583,2022-03-18,2026-07-17,1.0,True
+compound-v3,Compound V3,Lending,2022-08-27,2026-07-17,1421,1420,2022-08-28,2026-07-17,0.8970309538850284,False
+convex-finance,Convex Finance,Yield,2021-05-17,2026-07-17,1886,1883,2022-03-18,2026-07-17,0.9987365761212887,True
+curve-dex,Curve DEX,DEX,2021-01-01,2026-07-17,2017,2012,2022-03-18,2026-07-17,0.9930511686670878,True
+lido,Lido,Liquid Staking,2021-01-01,2026-07-17,2023,2021,2022-03-18,2026-07-17,1.0,True
+morpho-blue,Morpho Blue,Lending,2024-01-14,2026-07-17,912,910,2024-01-15,2026-07-17,0.574857864813645,False
+sky-lending,Sky Lending,CDP,2021-01-01,2026-07-17,2024,2023,2022-03-18,2026-07-17,1.0,True
+uniswap-v3,Uniswap V3,DEX,2021-05-06,2026-07-17,1883,1870,2022-03-18,2026-07-17,0.9861023373341756,True

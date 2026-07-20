@@ -1,0 +1,11 @@
+sample,component,vif
+training,correlation,10.674338918492424
+training,density,10.565682934173537
+training,stablecoin_contraction,1.0976898364169745
+training,volatility,1.059590422099134
+training,breadth,1.0037704627147475
+holdout,correlation,3.049179637227267
+holdout,density,3.434472467149802
+holdout,stablecoin_contraction,1.5433359734095289
+holdout,volatility,1.4344809241669003
+holdout,breadth,1.0147472063746972

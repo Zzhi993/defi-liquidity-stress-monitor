@@ -1,0 +1,7 @@
+specification,features,training_average_precision,holdout_average_precision,holdout_roc_auc,coefficients,incremental_ap_vs_stablecoin_logistic
+stablecoin_only,stablecoin_contraction,0.16677855322539342,0.27629918708799783,0.5804139206844722,"{""stablecoin_contraction"": 0.038015251723214336}",0.0
+stablecoin_plus_correlation,stablecoin_contraction+correlation,0.16509885321391382,0.2908948004295404,0.6160538790611632,"{""correlation"": -0.009624427104033394, ""stablecoin_contraction"": 0.037024259379805045}",0.01459561334154258
+stablecoin_plus_density,stablecoin_contraction+density,0.1645404940475662,0.27549376095535955,0.5981038270320268,"{""density"": -0.006079281999200379, ""stablecoin_contraction"": 0.03744492777401407}",-0.0008054261326382872
+stablecoin_plus_volatility,stablecoin_contraction+volatility,0.19295338246731808,0.15151745021417057,0.3573823563417736,"{""stablecoin_contraction"": 0.022846077354338357, ""volatility"": 0.1071749732583957}",-0.12478173687382726
+stablecoin_plus_breadth,stablecoin_contraction+breadth,0.18336470462645227,0.2644044366742863,0.5704994797086368,"{""breadth"": 0.031064786215212626, ""stablecoin_contraction"": 0.037091304131621414}",-0.011894750413711519
+all_components,correlation+density+stablecoin_contraction+volatility+breadth,0.19429940321310069,0.16502037151124685,0.4060006937218176,"{""breadth"": 0.030366726998040928, ""correlation"": -0.01373491032262551, ""density"": -0.00387233333732265, ""stablecoin_contraction"": 0.020128632840656243, ""volatility"": 0.1078887349621632}",-0.11127881557675098

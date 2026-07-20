@@ -1,0 +1,5 @@
+specification,average_precision,roc_auc
+raw_components_raw_target,0.15312223015797188,0.3701005896635449
+eth_residual_components_raw_target,0.20240165605134836,0.47944849115504684
+eth_residual_components_residual_target,0.029354619392557908,0.4550205891669306
+stablecoin_only_residual_target,0.021848173011823267,0.31849857459613556

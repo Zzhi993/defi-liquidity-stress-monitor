@@ -1,0 +1,11 @@
+features,feature_count,mean_inner_average_precision,folds,selected
+correlation,1,0.35457324344629537,3,True
+density,1,0.3026487405587875,3,False
+stablecoin_contraction,1,0.2350863767458191,3,False
+stablecoin_contraction+correlation,2,0.22055642776703077,3,False
+stablecoin_contraction+breadth,2,0.18178774393020888,3,False
+stablecoin_contraction+density,2,0.17636335399471123,3,False
+stablecoin_contraction+volatility,2,0.15176981129857714,3,False
+correlation+density+stablecoin_contraction+volatility+breadth,5,0.1482561392228541,3,False
+breadth,1,0.1459451593820751,3,False
+volatility,1,0.14108853275882402,3,False

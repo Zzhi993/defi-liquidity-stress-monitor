@@ -1,0 +1,76 @@
+{
+  "logistic": {
+    "parsimonious_selected": {
+      "coefficients": {
+        "correlation": -0.013709229974916678
+      },
+      "features": [
+        "correlation"
+      ],
+      "intercept": -1.729205229247742,
+      "means": {
+        "correlation": 0.5634415784650237
+      },
+      "stds": {
+        "correlation": 0.13852123452818038
+      }
+    },
+    "unconstrained_logistic": {
+      "coefficients": {
+        "breadth": 0.030366726998040928,
+        "correlation": -0.01373491032262551,
+        "density": -0.00387233333732265,
+        "stablecoin_contraction": 0.020128632840656243,
+        "volatility": 0.1078887349621632
+      },
+      "features": [
+        "correlation",
+        "density",
+        "stablecoin_contraction",
+        "volatility",
+        "breadth"
+      ],
+      "intercept": -1.7341747391728295,
+      "means": {
+        "breadth": 0.481140642303433,
+        "correlation": 0.5634415784650237,
+        "density": 0.7085035068290882,
+        "stablecoin_contraction": -0.0014262740161766047,
+        "volatility": 0.024150426797434173
+      },
+      "stds": {
+        "breadth": 0.37981742463848134,
+        "correlation": 0.13852123452818038,
+        "density": 0.2346837737781742,
+        "stablecoin_contraction": 0.015177189877851365,
+        "volatility": 0.008034810786536194
+      }
+    }
+  },
+  "scaler": {
+    "breadth": [
+      0.0,
+      1.0
+    ],
+    "correlation": [
+      0.30257818905518297,
+      0.7817607952504882
+    ],
+    "density": [
+      0.2,
+      1.0
+    ],
+    "stablecoin_contraction": [
+      -0.023560544320984395,
+      0.010496079609248792
+    ],
+    "tvl_momentum": [
+      -0.11884411198627069,
+      0.10569077132000913
+    ],
+    "volatility": [
+      0.013487713810776425,
+      0.03803611556001158
+    ]
+  }
+}

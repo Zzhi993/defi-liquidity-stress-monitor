@@ -1,0 +1,13 @@
+sample,component,coefficient,sign_stable
+training,intercept,-1.7341747391728295,
+training,correlation,-0.01373491032262551,True
+training,density,-0.00387233333732265,True
+training,stablecoin_contraction,0.020128632840656243,True
+training,volatility,0.1078887349621632,False
+training,breadth,0.030366726998040928,True
+holdout_diagnostic,intercept,-1.4716529331106256,
+holdout_diagnostic,correlation,-0.3123748276737339,True
+holdout_diagnostic,density,-0.0889849875416161,True
+holdout_diagnostic,stablecoin_contraction,0.020671023622399486,True
+holdout_diagnostic,volatility,-0.20962115267746265,False
+holdout_diagnostic,breadth,0.06934663036827206,True

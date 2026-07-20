@@ -1,0 +1,96 @@
+{
+  "checks": {
+    "academic_structure": {
+      "detail": "missing sections=[]; numbered headings=0",
+      "passed": true
+    },
+    "exact_data_endpoints": {
+      "detail": "protocol, stablecoin, and ETH endpoints present",
+      "passed": true
+    },
+    "figures_tables_and_captions": {
+      "detail": "missing figures=[]; figure captions=['1', '2', '3', '4', '5', '6', '7', '8']; table captions=['1', '2', '3', '4', '5']",
+      "passed": true
+    },
+    "fitting_description_accurate": {
+      "detail": "required calibration sentence present",
+      "passed": true
+    },
+    "internal_review_material_excluded": {
+      "detail": "leaked files=[]",
+      "passed": true
+    },
+    "lagged_weights_and_alternative_targets": {
+      "detail": "targets=['capped_lagged_tvl_weighted', 'category_balanced', 'equal_weight_available', 'lagged_tvl_weighted', 'retrospective_common_history']",
+      "passed": true
+    },
+    "legacy_footer_keywords_notes_removed": {
+      "detail": "legacy footer, keywords, and notes absent",
+      "passed": true
+    },
+    "market_control_calendar_complete": {
+      "detail": "observations=2024",
+      "passed": true
+    },
+    "model_summary_reconciles": {
+      "detail": "maximum difference=8.33e-17",
+      "passed": true
+    },
+    "no_placeholders": {
+      "detail": "placeholders=[]",
+      "passed": true
+    },
+    "pdf_page_count_and_density": {
+      "detail": "pages=8; near-empty pages=[]",
+      "passed": true
+    },
+    "report_identity": {
+      "detail": "PDF author=Yifan Zhi",
+      "passed": true
+    },
+    "report_values_match_outputs": {
+      "detail": "absent values=[]",
+      "passed": true
+    },
+    "repository_link_present": {
+      "detail": "https://github.com/Zzhi993/defi-liquidity-stress-monitor",
+      "passed": true
+    },
+    "scenario_grid_and_assumptions": {
+      "detail": "grid rows=64",
+      "passed": true
+    },
+    "terminology_boundaries": {
+      "detail": "average precision and causal boundaries checked",
+      "passed": true
+    },
+    "times_new_roman_embedded": {
+      "detail": "matching fonts=['/AAAAAA+TimesNewRomanPS-BoldMT', '/AAAAAA+TimesNewRomanPS-ItalicMT', '/AAAAAA+TimesNewRomanPSMT']",
+      "passed": true
+    },
+    "unavailable_forward_labels_preserved": {
+      "detail": "non-missing unavailable labels=0",
+      "passed": true
+    },
+    "unique_protocol_dates": {
+      "detail": "staging duplicates=0; processed duplicates=0",
+      "passed": true
+    },
+    "verified_reference_records": {
+      "detail": "required DOI records=7",
+      "passed": true
+    },
+    "walk_forward_fold_local_timing": {
+      "detail": "outer rows=24; minimum gap=8 days",
+      "passed": true
+    },
+    "walk_forward_oof_unique": {
+      "detail": "duplicate model-date predictions=0",
+      "passed": true
+    }
+  },
+  "data_snapshot_utc": "2026-07-17T07:52:14+00:00",
+  "market_control_retrieved": "2026-07-20",
+  "report_pages": 8,
+  "status": "pass"
+}

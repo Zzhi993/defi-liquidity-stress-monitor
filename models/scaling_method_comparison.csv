@@ -1,0 +1,3 @@
+specification,average_precision,roc_auc
+training_p05_p95_clipped,0.15312223015797188,0.3701005896635449
+same_linear_scaling_without_clipping,0.1529418410245052,0.3682795698924731

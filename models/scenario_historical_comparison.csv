@@ -1,0 +1,9 @@
+quantity,value
+historical_7d_loss_p95,0.10123691925305202
+historical_7d_loss_p99,0.21453088010542054
+historical_7d_loss_max,0.4008299329705063
+historical_tail_median_protocols_losing_over_1pct,7.0
+scenario_grid_p95_min,0.10084734604039708
+scenario_grid_p95_max,0.2717843113321476
+scenario_grid_p99_min,0.12186459218437541
+scenario_grid_p99_max,0.34327212733983103

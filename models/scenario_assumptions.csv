@@ -1,0 +1,11 @@
+assumption,value,status
+initial protocol,sampled by current TVL weight,current exposure calibration
+initial shock,protocol historical seven-day loss tail,empirical distribution
+tail cutoff,"0.80, 0.85, or 0.90",heuristic sensitivity
+edge,current rolling TVL-return correlation above threshold,"statistical association, not exposure"
+propagation multiplier,"0.30, 0.50, or 0.70",heuristic sensitivity
+random multiplier,"Uniform(0.75, 1.25)",heuristic dispersion
+rounds,"1, 2, or 3",heuristic sensitivity
+loss cap,0.30 or 0.50,heuristic sensitivity
+network window,"30, 60, or 90 days",heuristic sensitivity
+simulation paths,"3,000 grid; 5,000 baseline",numerical sampling choice
