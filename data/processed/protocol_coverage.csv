@@ -1,0 +1,9 @@
+protocol_slug,protocol_name,category,first_observation,last_observation,tvl_observations,valid_daily_returns
+aave-v3,Aave V3,Lending,2022-03-17,2026-07-17,1584,1583
+compound-v3,Compound V3,Lending,2022-08-27,2026-07-17,1421,1420
+convex-finance,Convex Finance,Yield,2021-05-17,2026-07-17,1886,1883
+curve-dex,Curve DEX,DEX,2021-01-01,2026-07-17,2017,2012
+lido,Lido,Liquid Staking,2021-01-01,2026-07-17,2023,2021
+morpho-blue,Morpho Blue,Lending,2024-01-14,2026-07-17,912,910
+sky-lending,Sky Lending,CDP,2021-01-01,2026-07-17,2024,2023
+uniswap-v3,Uniswap V3,DEX,2021-05-06,2026-07-17,1883,1870

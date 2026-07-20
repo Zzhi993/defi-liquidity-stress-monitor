@@ -1,0 +1,9 @@
+protocol_slug,protocol_name,category
+curve-dex,Curve DEX,DEX
+lido,Lido,Liquid Staking
+sky-lending,Sky Lending,CDP
+uniswap-v3,Uniswap V3,DEX
+convex-finance,Convex Finance,Yield
+aave-v3,Aave V3,Lending
+compound-v3,Compound V3,Lending
+morpho-blue,Morpho Blue,Lending

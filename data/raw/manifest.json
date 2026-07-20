@@ -1,0 +1,49 @@
+{
+  "protocols": [
+    {
+      "category": "Lending",
+      "name": "Aave V3",
+      "slug": "aave-v3"
+    },
+    {
+      "category": "Lending",
+      "name": "Compound V3",
+      "slug": "compound-v3"
+    },
+    {
+      "category": "Lending",
+      "name": "Morpho Blue",
+      "slug": "morpho-blue"
+    },
+    {
+      "category": "CDP",
+      "name": "Sky Lending",
+      "slug": "sky-lending"
+    },
+    {
+      "category": "DEX",
+      "name": "Curve DEX",
+      "slug": "curve-dex"
+    },
+    {
+      "category": "DEX",
+      "name": "Uniswap V3",
+      "slug": "uniswap-v3"
+    },
+    {
+      "category": "Liquid Staking",
+      "name": "Lido",
+      "slug": "lido"
+    },
+    {
+      "category": "Yield",
+      "name": "Convex Finance",
+      "slug": "convex-finance"
+    }
+  ],
+  "snapshot_utc": "2026-07-17T02:57:14+00:00",
+  "sources": {
+    "protocol": "https://api.llama.fi/protocol/{slug}",
+    "stablecoin_supply": "https://stablecoins.llama.fi/stablecoincharts/all"
+  }
+}

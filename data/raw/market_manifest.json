@@ -1,0 +1,30 @@
+{
+  "asset": "Ethereum",
+  "coin_identifier": "coingecko:ethereum",
+  "retrieved_utc_date": "2026-07-20",
+  "source": "DefiLlama Coins API",
+  "endpoint_template": "https://coins.llama.fi/chart/coingecko:ethereum?start={start}&span=500&period=1d",
+  "chunk_start_timestamps": [
+    1609459200,
+    1652659200,
+    1695859200,
+    1739059200,
+    1782259200
+  ],
+  "raw_files": [
+    "market_eth_chunk_1.json",
+    "market_eth_chunk_2.json",
+    "market_eth_chunk_3.json",
+    "market_eth_chunk_4.json",
+    "market_eth_chunk_5.json"
+  ],
+  "gap_endpoint_template": "https://coins.llama.fi/prices/historical/{timestamp}/coingecko:ethereum",
+  "gap_request_timestamps": [1653004800, 1660003200, 1665187200],
+  "gap_files": [
+    "market_eth_gap_1.json",
+    "market_eth_gap_2.json",
+    "market_eth_gap_3.json"
+  ],
+  "normalization": "API timestamps are rounded to the nearest UTC calendar day; one observation is retained per rounded date.",
+  "sample_cutoff": "2026-07-17"
+}
